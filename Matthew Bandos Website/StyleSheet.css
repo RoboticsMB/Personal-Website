@@ -1,58 +1,101 @@
 @charset "utf-8";
 /* CSS Document */
 Body{background-color: #384A6F}
-		Body{color: #FFFFFF}
+Body{color: #FFFFFF}
 		
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
-		.content {
- 		 max-width: 500px;
-		 line-height: 30px;
-		}
+main {
+  flex-grow: 1;
+}
 
-		#boxes{
-			text-align: center;
-		}
-		#column1{
-			vertical-align:top; 
-			width: 130px;
-			display: inline-block;
-			margin-right: 30px;
-			position: sticky;
-		    top: 3%;
-		}
-		#column2{
-			vertical-align:top; 
-			text-align: left;
-			display: inline-block;
-		}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.content {
+ 	max-width: 500px;
+	line-height: 30px;
+}
+
+#boxes{
+	text-align: center;
+}
+#column1{
+	text-align: left;
+	vertical-align:top; 
+	width: 170px;
+	display: inline-block;
+	margin-right: 30px;
+	position: sticky;
+	top: 3%;
+}
+#column2{
+	vertical-align:top; 
+	text-align: left;
+	display: inline-block;
+}
 		
-		.navbar{
-			width: 100%;
-  			overflow: auto;
-			  background-color:#384A6F;
-			text-align: center;
-		}
+.navbar{
+	text-decoration: none;
+	width: 100%;
+  	overflow: auto;
+	background-color:#384A6F;
+	text-align: center;
+}
+
+.navbar a:hover{
+	text-decoration: underline;
+}
 		
 		
+.navbar a {
+  	padding: 50px;
+  	text-decoration: none;
+  	font-size: 30px;
+	color: white;
+  	width: 25%; 
+ 	text-align: center;
+	@media screen and (max-width: 500px) {
 		.navbar a {
-  	   	 padding: 50px;
-  		 text-decoration: none;
-  		 font-size: 30px;
-		 color: white;
-  		 width: 25%; 
- 		 text-align: center;
-			@media screen and (max-width: 500px) {
-  				.navbar a {
-   				 float: none;
-    			 display: block;
-   				 width: 100%;
-  			}
-		}
-		}
+   			float: none;
+    		display: block;
+   			width: 100%;
+  		}
+	}
+}
+
+.Sidebar a{
+	color: white;
+}
 		
 		
-		img {
-  			width: 90%;
-		}
+img {
+  	width: 90%;
+}
 
+.Endbar {
+  	display: flex;
+  	justify-content: flex-start;
+  	gap: 100px;
+	background-color:#182C4E;
+	height: 40px;
+	padding: 20px;
+}
 
+.Endbar-element {
+  flex-shrink: 0;
+}
+
+.Endbar-element a{
+  flex-shrink: 0;
+  color: white;
+}
