@@ -76,6 +76,30 @@ a:hover {
 .Sidebar a{
 	color: white;
 }
+
+.Sidebar-image-location{
+	width: 10px;
+	height: auto;
+	background-color: transparent;
+}
+
+.Sidebar-image-github{
+	width: 15px;
+	height: auto;
+	background-color: transparent;
+}
+
+.Sidebar-image-about{
+	width: 15px;
+	height: auto;
+	background-color: transparent;
+}
+
+.Sidebar-image-email{
+	width: 15px;
+	height: auto;
+	background-color: transparent;
+}
 		
 		
 img {
