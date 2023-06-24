@@ -110,7 +110,8 @@ img {
   	display: flex;
   	justify-content: flex-start;
   	gap: 100px;
-	background-color:#182C4E;
+	background-color:#30445E;
+	/*background-color:#182C4E;*/
 	height: 40px;
 	padding: 20px;
 }
