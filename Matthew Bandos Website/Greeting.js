@@ -12,10 +12,10 @@ document.addEventListener("DOMContentLoaded", function() {
     var currentHour = currentTime.getHours() + timezoneOffsetHours;
 
     // Define the greetings based on the time of day
-    var morningGreeting = "Good morning! I'm Matthew!";
-    var afternoonGreeting = "Good afternoon! I'm Matthew!";
-    var eveningGreeting = "Good evening! I'm Matthew!";
-    var defaultGreeting = "Hello! I'm Matthew!";
+    var morningGreeting = "Good morning!";
+    var afternoonGreeting = "Good afternoon!";
+    var eveningGreeting = "Good evening!";
+    var defaultGreeting = "Hello!";
 
     // Determine the appropriate greeting based on the current hour
     var greeting;
