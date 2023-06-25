@@ -1,7 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
-Body{background-color: #384A6F}
-Body{color: #FFFFFF}
+Body{
+	background-color: #384A6F;
+	color: #FFFFFF;
+}
 		
 .wrapper {
   display: flex;
@@ -11,6 +13,10 @@ Body{color: #FFFFFF}
 
 main {
   flex-grow: 1;
+}
+
+img {
+  	width: 90%;
 }
 
 a {
@@ -37,6 +43,7 @@ a:hover {
 	margin-right: 30px;
 	position: sticky;
 	top: 3%;
+	margin-top: 25px;
 }
 #column2{
 	vertical-align:top; 
@@ -48,8 +55,9 @@ a:hover {
 	text-decoration: none;
 	width: 100%;
   	overflow: auto;
-	background-color:#384A6F;
+	/*background-color:#384A6F;*/
 	text-align: center;
+	margin-bottom: 30px;
 }
 
 .navbar a:hover{
@@ -77,6 +85,12 @@ a:hover {
 	color: white;
 }
 
+.Profile-Picture{
+	width: 50%;
+	height: auto;
+	border-radius: 50%;
+}
+
 .Sidebar-image-location{
 	width: 10px;
 	height: auto;
@@ -101,16 +115,20 @@ a:hover {
 	background-color: transparent;
 }
 		
-		
-img {
-  	width: 90%;
+.highlight {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .Endbar {
   	display: flex;
   	justify-content: flex-start;
   	gap: 100px;
+	
 	background-color:#30445E;
+	
+	/*previous solid color*/
 	/*background-color:#182C4E;*/
 	height: 40px;
 	padding: 20px;
