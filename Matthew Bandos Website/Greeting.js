@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var timezoneOffsetHours = timezoneOffset / 60;
 
     // Get the user's current hour in their timezone
-    var currentHour = currentTime.getHours() + timezoneOffsetHours;
+    var currentHour = currentTime.getHours() - timezoneOffsetHours;
 	
 	if (currentHour < 0) {
     	currentHour += 24;
