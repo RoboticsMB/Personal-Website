@@ -6,10 +6,16 @@ document.addEventListener("DOMContentLoaded", function() {
     var timezoneOffset = currentTime.getTimezoneOffset();
 
     // Convert the timezone offset to hours
-    var timezoneOffsetHours = Math.abs(timezoneOffset / 60);
+    var timezoneOffsetHours = timezoneOffset / 60;
 
     // Get the user's current hour in their timezone
     var currentHour = currentTime.getHours() + timezoneOffsetHours;
+	
+	if (currentHour < 0) {
+    	currentHour += 24;
+	} else if (currentHour >= 24) {
+    	currentHour -= 24;
+	}
 
     // Define the greetings based on the time of day
     var morningGreeting = "Good morning!";
