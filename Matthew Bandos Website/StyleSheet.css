@@ -1,5 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
+
+*{
+	
+	/*The defautl was no font setting at all*/
+	
+	font-family: 'Montserrat', Times New Roman;
+}
 Body{
 	background-color: #384A6F;
 	color: #FFFFFF;
