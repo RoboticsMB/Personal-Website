@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function() {
 	}
 
 
-    var morningGreeting = "Good morning!";
-    var afternoonGreeting = "Good afternoon!";
-    var eveningGreeting = "Good evening!";
+    var morningGreeting = "Good Morning!";
+    var afternoonGreeting = "Good Afternoon!";
+    var eveningGreeting = "Good Evening!";
     var defaultGreeting = "Hello!";
 
 
